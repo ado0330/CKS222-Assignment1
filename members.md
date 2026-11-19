@@ -8,7 +8,7 @@
 
 | No. | Name | Matric No. | USM Email | GitHub Username | Assigned Task | Date Joined |
 |-----|------|-----------|-----------|-----------------|---------------|-------------|
-| 1 | Khaw Zhi Xin (Leader) | 24303631 | jasonkhaw0330@student.usm.my | ado0330 | Task 5 | 15/11/2026 |
+| 1 | Khaw Zhi Xin (Leader) | 24303631 | jasonkhaw0330@student.usm.my | ado0330 | Task 1 | 15/11/2026 |
 | 2 | Seah Xin Yi (Member) | 24304524 | catherineseahxy06@student.usm.my | xinyi925 | Task 3 | 15/11/26 | 
 | 3 | Kung Ker Mian (Member) | 24304025 | kermian.kung@student.usm.my | kungkungmian | Task 4 | 15/11/26 |
 | 4 | Cecilia Se (Member) | 24303186 | ceciliase1231@student.usm.my | Cecilia-1231 | Task 2 | 15/11/26 |
