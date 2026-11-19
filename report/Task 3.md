@@ -2,21 +2,23 @@
 
 **3.0 Introduction**
 
-   MyRapid PULSE, developed by Pasarana Malaysia Berhad, is a mobile application that provides public transport information and journey planning services. Its Journey Planner helps passengers plan their daily trips using public transport services.
+  The V-Model (Verification and Validation Model) is selected to guide the development and testing of the proposed Journey Planning feature for MyRapid PULSE. This model is suitable because it connects each development phase with a corresponding testing phase, ensuring that requirements and design specifications are properly checked throughout the development process.
 
-   For this task, the selected feature is Journey Planning, focusing on two functions: normal route search and a fewer-transfer option. Normal route search allows passengers to search for available journeys between their starting point and destination. The fewer-transfer option provides an alternative that prioritizes journeys requiring fewer changes between transport services.
+  For the Journey Planning feature, the V-Model focuses on ensuring that the route search function retrieves accurate journey information, calculates the number of transfers correctly and provides results within the expected response time. By planning testing activities alongside development activities, potential errors can be identified earlier, improving the overall quality and reliability of the proposed feature.
 
-   This feature is treated as a core database-related feature because its route-planning functions depend on accessing and processing transport information, such as station stops, routes, services and schedules. A customized symmetrical V-model is proposed to guide its development and testing.
+**3.1 Selected Feature and Technical Scope**
+   The selected feature is Journey Planning in MyRapid PULSE, an application provided by Prasarana Malaysia Berhad to help public transport users plan their journeys.
 
-   The V-model establishes a relationship between each development phase and its corresponding testing phase. This ensures that verification and validation activities are considered throughout the development activities.
+   The proposed improvement focuses on two main user stories:
+* US1: Basic Route Search - Allows passengers to search for available routes between their selected origin and destionation.
+* US2: Fewer-Transfer Search - Allows passengers to find routes with the lowest number of transfer.
 
-**3.1 Justification for Selecting the V-model**
+   For this audit, the technical scope focuses on the Core Route Database Retrieval and Processing behind the Journey Planning feature. This includes retrieving relevant route, station, stop and service information from the database, calculating the number of transfers, estimating journey duration and sorting the available results according to the selected search option.
 
-   The Journey planning feature involves processing passenger’s search requests and retrieving suitable route information based on their selected starting point and destination. It also needs to consider the connections between transport services when generating alternative journeys with fewer transfers.
+   The proposed system should display up to three distinct feasible routes, including the services used, boarding and alighting points, transfer locations, number of transfers and estimated journey duration.
 
-   The feature therefore requires accurate route information, consistent database records and efficient search processing. Incorrect route information or unsuitable transfer combinations may result in passengers receiving misleading journey recommendations.
+   This scope provides a clear basis for applying the V-Model because both the database operations and route-processing logic can be examined through specific development and testing activities.
 
-  The V-Model is suitable because it provides a structural development approach in which testing activities are planned alongside requirements and design activities. Each constructive phase has a corresponding analytical phase, allowing the development team to identify potential problems and evaluate the completed feature systematically.
 
 **3.2 Customized Symmetrical V-Model**
 
