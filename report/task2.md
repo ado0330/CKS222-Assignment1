@@ -55,8 +55,6 @@ The passenger saves frequently used endpoints and later selects them to prefill 
 
 Saving is available directly from endpoint selection. It does not depend on a successful route search. Account authentication is a prerequisite provided by the existing account service while developing registration and login is outside this user story. 
 
-
-
 ## **2.4 Evaluation Against INVEST**
 
 INVEST evaluates whether a user story is Independent, Negotiable, Valuable, Estimable, Small and Testable. 
@@ -93,9 +91,94 @@ Both stories are evaluated individually below.
 
 ## **2.5 Given-When-Then (GWT) Acceptance Criteria**
 
-### **2.5.1 US1 Basic Route Search**
+The following scenarios define the observable behaviour required for each story. Journey durations and locations used in tests are controlled examples rather than claims about actual PULSE services.
 
-### **2.5.2 US2 Fewer Transfer Search**
+### **2.5.1 Acceptance Criteria for User Story 1 – Search for Public Transport Routes**
+
+**AC1.1: Successful route search**
+
+* **Given** the passenger has selected different supported endpoints and a valid departure time,  
+* **When** the passenger submits the search,  
+* **Then** the application displays the suitable routes in ascending duration order.  
+* **And** every route includes the required service, boarding, alighting, transfer and duration details.
+
+**AC1.2: Missing or unsupported location**
+
+* **Given** either endpoint is blank or does not match a supported stop or station,  
+* **When** the passenger attempts to submit the search,  
+* **Then** the application identifies the invalid field and requests a supported location.  
+* **And** no routing request is submitted.
+
+**AC1.3: Identical endpoints**
+
+* **Given** the origin and destination refer to the same stop or station identifier,  
+* **When** the passenger submits the search,  
+* **Then** the application asks the passenger to select a different destination.  
+* **And** no routing request is submitted.
+
+**AC1.4: No feasible route**
+
+* **Given** the journey inputs are valid and the route service successfully returns no feasible connection,  
+* **When** the search completes,  
+* **Then** the application displays “No route available for the selected journey and time.”  
+* **And** it clears previous search results and allows the passenger to change the inputs.
+
+**AC1.5: Route service unavailable**
+
+* **Given** valid journey inputs have been entered but the route service returns an availability error,  
+* **When** the passenger submits the search,  
+* **Then** the application ends the loading indicator and displays “Journey information is temporarily unavailable.”  
+* **And** it provides a retry option while retaining the inputs.
+
+### 
+
+### **2.5.2 Acceptance Criteria for User Story 2 – Save and Reuse a Favourite Journey**
+
+**AC2.1: Successfully save a favourite journey**
+
+* **Given** the passenger is signed in, has fewer than ten favourites and has selected a valid endpoint pair that is not already saved,  
+* **When** the passenger selects Save as Favourite,  
+* **Then** the application stores the endpoint pair under that passenger’s account.  
+* **And** it displays a success confirmation and the new favourite in the list.
+
+**AC2.2 — Reuse a favourite**
+
+* **Given** the signed-in passenger has a saved favourite from stop A to stop B,
+
+* **When** the passenger selects that favourite,  
+* **Then** the journey-planning form is populated with A as the origin and B as the destination.  
+* **And** the passenger can select or confirm a departure time before searching.  
+* **And** the application does not display a previously calculated route as a current search result.
+
+**AC2.3 — Duplicate favourite**
+
+* **Given** the passenger has already saved the ordered pair A-to-B,  
+* **When** the passenger attempts to save A-to-B again,  
+* **Then** the application displays **“This journey is already saved.”**  
+* **And** the number of favourites remains unchanged.
+
+**AC2.4 — Invalid endpoints**
+
+* **Given** an endpoint is missing, unsupported or identical to the other endpoint,  
+* **When** the passenger attempts to save the journey,  
+* **Then** the application explains which input must be corrected.  
+* **And** no favourite is created.
+
+**AC2.5 — Favourite limit boundary**
+
+* **Given** the passenger already has ten favourites and selects another new valid pair,  
+* **When** the passenger attempts to save the journey,  
+* **Then** the application displays “You have reached the limit of ten favourite journeys.”  
+* **And** no additional favourite is created.
+
+**AC2.6 — Passenger is not signed in**
+
+* **Given** the passenger is not signed in,  
+* **When** the passenger selects **Save as Favourite**,  
+* **Then** the application asks the passenger to sign in.  
+* **And** no favourite is saved without an authenticated account.
+
+
 
 ## **2.6 Definition of Done**
 
