@@ -18,7 +18,7 @@ To reduce waiting, the team can use GitHub Projects to track tasks and set deadl
 
 ### **4.1.2 Lean Waste 2: Defects**
 
-Defects refer to errors or bugs that escape early detection and cause the system to work incorrectly. These errors may be the result from unclear requirements, incorrect logic or insufficient testing. When defects are discovered late, developers may need extra time to fix and retest the system, increasing the workload, cost and delaying development.
+Defects refer to errors or bugs that escape early detection and cause the system to work incorrectly. These errors may result from unclear requirements, incorrect logic or insufficient testing. When defects are discovered late, developers may need extra time to fix and retest the system, increasing the workload, cost and delaying development.
 
 In the CCA103 project, a possible defect would be an overlapping slots booking between two students. For example, Student A and Student B both try to book an appointment with Lecturer C at the same time slot. If the system fails to check and update slots availability, both bookings may be accepted. As a result, the lecturer would have two appointments scheduled at the same time, causing confusion and requiring students to rearrange their appointments. The development team would also need to correct the booking logic and repeat the testing process.
 
@@ -35,7 +35,7 @@ To prevent overproduction, the team can maintain a prioritised backlog so the de
 
 Handoffs occur when work or information is transferred from one team member to another. They become wasteful when important details are missing, unclear or misunderstood during the transfer. In software projects, this happens when different developers work on connected modules but lack effective communication. Poor handoffs can lead to incorrect assumptions and integration problems when combining different modules into a working system.
 
-For example, in our CCA103 system, the Booking Module needs to pass appointment information to Notification Module when a student successfully books a consultation slot. This includes the correct student and appointment details such as student ID, lecturer ID, appointment date, time and booking status. But if the developers do not agree on the required information, the Notification Module may receive incomplete or incorrect data. As a result, students may receive incorrect confirmation messages and affect the lecturer’s schedule. The team would then need to review the connections between modules and correct the integration errors.
+For example, in our CCA103 system, the Booking Module needs to pass appointment information to Notification Module when a student successfully books a consultation slot. This includes the correct student and appointment details such as student ID, lecturer ID, appointment date, time and booking status. But if the developers do not agree on the required information, the Notification Module may receive incomplete or incorrect data. As a result, students may receive incorrect confirmation messages, leading to miscommunication or missed consulation. The team would then need to review the connections between modules and correct the integration errors.
 
 To reduce handoff problems, the team should prepare clear interface specifications before developing connected modules. These should describe the required inputs, outputs and data formats so every member understands how information is exchanged. The team can also conduct short joint review sessions when work is transferred between modules and use Pair Programming for functions involving multiple modules. These practices improve communication, reduce misunderstanding and help identify integration problems earlier.
 
@@ -45,7 +45,24 @@ Extreme Programming (XP) is an Agile software development approach that focuses 
 
 ### **4.2.1 Pair Programming**
 
+Pair Programming involves two developers working together at a single machine. One developer writes the code, known as driver while the other acts as navigator is responsible for reviewing code, thinking strategically and enforcing design quality. They regularly switch roles to share different perspectives and identify mistakes more efficiently during development.
+
+In the CCA103 system, Pair Programming would be useful when developing the Booking and Appointment Module. For example, one developer could write the code to reserve a consultation slot while the other checks whether the system prevents double bookings and handles unavailable slots correctly. They could also review how the Booking Module receives updated information from the Lecturer Availability Module.
+
+This practice allows errors to be detected while the code is being written instead of waiting until testing. It also improves communication and helps both developers understand the booking process, reducing the time needed to fix errors later.
+
 ### **4.2.2 Test-First Programming (TDD)**
 
+In this practice, developers must write automated unit tests before writing the actual program code. It follows an iterative rhythm known as Red-Green-Refactor, where a developer first writes a failing test, develops the code until the test passes and then optimizes the code without changing its behaviour.  
+In the CCA103 system, TDD would be suitable to apply on appointment booking function. For example, the team could write an automated unit test to check that a student cannot book a consultation slot that has already been reserved. Initially, the test might fail because the booking function has not been developed yet. Next, the developer will then start to develop the code and make sure it passes all the running tests before refactoring it.
+
+This practice is useful to ensure that each function meets its requirements from the beginning and reduces the need for major corrections later in the development process. Automated tests also allow the team to check changes quickly, reduce repeated manual testing and detect defects earlier, providing faster feedback to developers.
+
 ### **4.2.3 Continuous Integration (CI)**
+
+In Continuous Integration (CI),  changes are integrated into the main code branch every few hours. The system must maintain a ‘Ten Minute Build’ to allow compiling and running 100% of tests within 10 minutes. This helps to identify new changes and allow the team to detect integration problems early. 
+
+In the CCA103 project, developers working on different modules could regularly commit and integrate their code on GitHub. Along with this, the team could utilize GitHub Actions to automatically build the application and run tests whenever changes are pushed or submitted through pull requests. For example, if an update on Lecturer Availability Module causes the Appointment Booking Module to fail, the automated tests would immediately alert the team. Therefore, immediate action could be taken before they become more difficult to solve.
+
+This practice reduces integration conflicts and prevents accumulation of errors that might slow down the development process and waste effort. It also provides quick feedback after each change, allowing developers to fix the problems early and maintain code quality.
 
