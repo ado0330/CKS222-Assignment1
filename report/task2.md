@@ -1,6 +1,3 @@
-[CKS222 Task 2- Requirements Quality & Agile User Stories (INVEST & GWT) (2).md](https://github.com/user-attachments/files/35172239/CKS222.Task.2-.Requirements.Quality.Agile.User.Stories.INVEST.GWT.2.md)
-[CKS222 Task 2- Requirements Quality & Agile User Stories (INVEST & GWT).md](https://github.com/user-attachments/files/35039217/CKS222.Task.2-.Requirements.Quality.Agile.User.Stories.INVEST.GWT.md)
-
 # **Task 2: Requirements Quality & Agile User Stories (INVEST & GWT)**
 
 ## **2.1 Selected Feature Backlog Item**
@@ -58,41 +55,41 @@ The passenger saves frequently used endpoints and later selects them to prefill 
 
 Saving is available directly from endpoint selection. It does not depend on a successful route search. Account authentication is a prerequisite provided by the existing account service while developing registration and login is outside this user story. 
 
-## 
 
-## 
-
-## 
 
 ## **2.4 Evaluation Against INVEST**
 
-INVEST evaluates whether a user story is Independent, Negotiable, Valuable, Estimable, Small and Testable. The following evaluation applies these criteria to both stories.
+INVEST evaluates whether a user story is Independent, Negotiable, Valuable, Estimable, Small and Testable. 
 
-### **2.4.1 INVEST Criterion for Basic Route Search**
+Both stories provide user-facing outcomes. Neither is limited to a technical activity such as creating a database table or designing a screen.
 
-| INVEST criterion | US1 — Basic Route Search |
+Both stories are evaluated individually below.
+
+### **2.4.1 INVEST Criterion for User Story 1 – Search for Public Transport Routes**
+
+| INVEST criterion | US1 — Search for Public Transport Routes |
 | :---: | ----- |
-| **Independent** |  |
-| **Negotiable** |  |
-| **Valuable** |  |
-| **Estimable** |  |
-| **Small** |  |
-| **Testable** |  |
+| **Independent** | Route searching works without the favourites function. It delivers a complete passenger outcome independently. |
+| **Negotiable** | The arrangement of search controls and presentation of route details can be refined with passengers and the Product Owner. The goal remains finding suitable routes. |
+| **Valuable** | Passengers can identify services and transfers needed in order to reach their destination and compare estimated journey durations. |
+| **Estimable** | Supported locations, required inputs, output fields and failure cases define the work for validation, routing service integration, display and testing. Routing-service availability must be confirmed before estimation. |
+| **Small** | The story covers a single search and its results within the pilot network. It excludes live tracking, ticketing and rerouting. Developers must confirm that it fits one sprint during planning. |
+| **Testable** | Controlled route and timetable data can verify result accuracy, ordering, required information and handling of invalid inputs or unavailable services.  |
 
-*Table 2.4.1 INVEST Criterion for* 
+*Table 2.4.1 INVEST Criterion for US1– Search for Public Transport Routes*
 
-### **2.4.2 INVEST Criterion for Fewer-Transfer Search**
+### **2.4.2 INVEST Criterion for User Story 2 \- Save and Reuse a Favourite Journey**
 
-| INVEST criterion | US2 — Fewer-Transfer Search |
+| INVEST criterion | US2 — Save and Reuse a Favourite Journey |
 | :---: | ----- |
-| **Independent** |  |
-| **Negotiable** |  |
-| **Valuable** |  |
-|    **Estimable** |  |
-| **Small** |  |
-| **Testable** |  |
+| **Independent** | Passengers can save endpoints directly and retrieve them to prefill a form without first performing US1. Saving and retrieval can be implemented and tested separately from route calculation. |
+| **Negotiable** | The save control, favourite-list layout and maximum number of favourites can be discussed during refinement. Agreed rules must be recorded before implementation and testing.  |
+| **Valuable** | Regular passengers spend less time entering repeated journey details and reduce the risk of selecting the wrong endpoints. |
+|    **Estimable** | The stored fields, account ownership, duplicate rule and ten-item limit define the work for saving, retrieving, prefilling and testing. Any uncertainty about account storage should be investigated first. |
+| **Small** | The story covers saving endpoint pairs and selecting them for reuse. Editing, sharing, notifications and cross-device synchronisation are excluded. It should be split further if the estimate exceeds one sprint. |
+| **Testable** | Stored records and displayed results can verify persistence, ownership, prefilling, duplicate prevention, storage failures and behaviour at the ten-item limit. |
 
-*Table 2.4.2 INVEST Criterion for* 
+*Table 2.4.2 INVEST Criterion for US2 \- Save and Reuse a Favourite Journey*
 
 ## **2.5 Given-When-Then (GWT) Acceptance Criteria**
 
