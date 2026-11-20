@@ -38,14 +38,25 @@ Table 1 defines the three roles. A role is a set of responsibilities and skills 
 
 ## **RACI Responsibility Matrix**
 
-### **Roles and deliverables**
+The reorganised PULSE team has five roles: a Product Owner who owns the backlog and decides releases, a Scrum Master who runs sprints and removes blockers, a Tech Lead who owns the architecture, coding standard and merge approval, Developers who build and review features, and a QA Engineer who plans and runs system and acceptance testing.
 
-\[To be written: five roles and six deliverables, to be confirmed with the group on 20 Nov.\]
+Table 3 maps seven deliverables across the five SDLC stages (requirements, design, implementation, testing and maintenance) and project control to the five roles. R \= Responsible (does the work), A \= Accountable (signs it off), C \= Consulted, I \= Informed.
 
-### **Matrix**
+Table 3: RACI matrix for the PULSE development lifecycle
 
-\[To be added: the RACI table.\]
+| Deliverable (stage) | Product Owner | Scrum Master | Tech Lead | Developer | QA Engineer |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| User stories and acceptance criteria (requirements) | R/A | I | C | C | C |
+| Architecture and design specification (design) | C | I | A | R | C |
+| Source code and Code Change Request (implementation) | I | I | A | R | I |
+| Static Analysis Report and Review Record (implementation) | I | I | A | R | I |
+| Test plan and test report (testing) | C | I | C | C | R/A |
+| Release approval and app store update (maintenance) | A | I | R | I | C |
+| Sprint progress report (project control) | I | R/A | I | I | I |
 
 ### **Constraint check and justification**
 
-\[To be written: one Accountable and at least one Responsible per deliverable, with reasons for the allocations.\]
+Every deliverable has exactly one A and at least one R, and every role holds at least one R or A, so no deliverable lacks a clear owner and no role exists only to be informed. R/A is used only where one owner can both produce and sign off the work.
+
+The allocations target the weaknesses in the current practice. The Tech Lead is accountable for design, code and the review record, so one person owns the decision to merge, the control that was missing when the July update removed features. The Product Owner is accountable for each release and consults the QA Engineer first, so an update that changes what commuters see needs explicit sign-off. The QA Engineer owns testing independently of the developers, supporting the verification and validation process in Task 3, and the Scrum Master owns only the progress report, keeping process and product ownership separate. The Developer and Tech Lead match the SPEM roles, and the Peer Reviewer is a Developer acting as reviewer, so the review record is the Developer's responsibility.
+
