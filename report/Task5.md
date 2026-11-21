@@ -83,3 +83,18 @@ This combination allows the project to maintain flexibility in feature developme
 Therefore, Scrum supported by the V-Model is considered suitable for managing the multiple functionalities, integration requirements and continuous maintenance activities associated with MyRapid PULSE.
 
 ## **5.1.4 People**
+
+The People factor examines the human characteristics of the software development team, particularly their technical skills, team cohesion, working culture and staff turnover. These characteristics influence how effectively individuals collaborate, communicate and perform their assigned development activities.
+
+The development and maintenance of MyRapid PULSE requires collaboration among individuals with different technical skills, responsibilities and areas of expertise. As proposed in Task 1, the reorganised development team consists of five specialised roles, including Product Owner, Scrum Master, Tech Lead, Developer and QA Engineer. The Table 8 below shows the responsibilities of each role.
+
+| Role | Responsibilities and contribution |
+| :---- | :---- |
+| **Product Owner** | Manages and prioritises the product backlog, defines user stories and acceptance criteria, and makes release decisions. The Product Owner ensures that development activities address commuters' needs and that changes to existing features are properly considered before release. |
+| **Scrum Master** | Facilitates Scrum activities, monitors sprint progress and removes obstacles that may affect the development team's productivity. This role helps maintain communication and coordination among team members. |
+| **Tech Lead** | Oversees the application's architecture and technical standards, maintains coding standards and static analysis rules, and provides final approval before code changes are merged. The Tech Lead also resolves technical disagreements between Developers and Peer Reviewers. |
+| **Developer** | Implements and maintains application features, performs static analysis and fixes identified issues. Developers also review one another's code to identify potential defects and ensure that existing functionality is not unintentionally affected. |
+| **QA Engineer** | Independently plans and performs system and acceptance testing to verify that the application meets its functional and quality requirements. The QA Engineer also contributes to release decisions by providing testing results and identifying unresolved defects. |
+
+*Table 8: The Responsibilities of Roles in Development Team*
+
