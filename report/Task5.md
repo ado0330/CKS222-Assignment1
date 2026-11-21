@@ -36,3 +36,18 @@ The developer has acknowledged these concerns and indicated that the feedback wo
 
 Such feedback demonstrates the importance of continuously identifying and addressing user requirements throughout the application's development lifecycle.
 
+#### **5.1.2.1 Problem Factor’s Implications for process selection**
+
+The characteristics of the Problem factor indicate that an iterative and flexible development approach is appropriate. Scrum is recommended because it allows development teams to continuously refine requirements based on user feedback and changing priorities.
+
+For example, when users report inaccurate bus arrival information, the development team can carry out the following steps:
+
+1. Collect and analyze the reported user feedback.  
+2. Record the required improvements in the product backlog.  
+3. Prioritize the improvements according to their importance.  
+4. Develop the selected improvements within a sprint.  
+5. Review the completed functionality and obtain further feedback.
+
+This iterative approach allows MyRapid PULSE to be improved progressively without requiring the entire application to undergo a complete redevelopment whenever user requirements change.
+
+Therefore, Scrum is considered suitable for addressing the complexity and volatility of the problems associated with the continuous improvement of MyRapid PULSE.
