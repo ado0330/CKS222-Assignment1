@@ -144,7 +144,6 @@ The following scenarios define the observable behaviour required for each story.
 **AC2.2 — Reuse a favourite**
 
 * **Given** the signed-in passenger has a saved favourite from stop A to stop B,
-
 * **When** the passenger selects that favourite,  
 * **Then** the journey-planning form is populated with A as the origin and B as the destination.  
 * **And** the passenger can select or confirm a departure time before searching.  
@@ -178,13 +177,28 @@ The following scenarios define the observable behaviour required for each story.
 * **Then** the application asks the passenger to sign in.  
 * **And** no favourite is saved without an authenticated account.
 
-
-
 ## **2.6 Definition of Done**
+
+Acceptance criteria describe the behaviour of individual stories. The Definition of Done establishes the shared quality conditions for the completed increment. 
+
+| Completion condition | Required evidence |
+| :---: | ----- |
+| **Acceptance criteria pass** | All applicable GWT scenarios pass, including successful, negative and boundary cases. Results are linked to story and scenario identifiers. |
+| **Code review is complete** | Another developer reviews the changes, and identified issues are resolved before merging. |
+| **Automated checks pass** | Unit tests cover validation, route ordering, duplicate detection and favourite limits. Integration tests cover routing, account storage and service failures. |
+| **Data integrity is verified** | A successful save creates one record. Failed saves create none. Repeated requests do not create duplicates or exceed the limit. |
+| **Account separation is verified** | A passenger can retrieve only their own favourites. Unauthenticated requests cannot save or retrieve account favourites. |
+| **Regression testing passes** | Existing route searching continues to work after favourites are introduced, and the two stories can be used separately. |
+| **Relevant defects are resolved** | No known defect remains that causes incorrect routes, lost saved data, duplicate favourites, unauthorised access or crashes within these workflows. |
+| **Documentation is updated** | The backlog records the final scope, business rules, acceptance criteria, test evidence and known limitations. |
 
 ## **2.7 Control of Requirement Changes**
 
-### 
+All requests should be recorded in one shared backlog, including suggestions initially raised through conversation. Each request should identify the passenger’s need, expected benefit and affected story.
+
+During refinement, the Product Owner and developers should clarify the request, update the relevant business rules and GWT criteria, and assess its impact on effort and testing. For example, adding favourite sharing would introduce additional scope and should be prioritised separately.
+
+Changes during a sprint should be negotiated without endangering the Sprint Goal. Recording these decisions prevents informal suggestions from becoming untracked commitments and keeps implementation aligned with the agreed requirements.
 
 
 
