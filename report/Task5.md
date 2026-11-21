@@ -51,3 +51,23 @@ For example, when users report inaccurate bus arrival information, the developme
 This iterative approach allows MyRapid PULSE to be improved progressively without requiring the entire application to undergo a complete redevelopment whenever user requirements change.
 
 Therefore, Scrum is considered suitable for addressing the complexity and volatility of the problems associated with the continuous improvement of MyRapid PULSE.
+
+### **5.1.3 Project**
+
+The Project factor examines the characteristics and constraints of the software development project, including team size, team distribution, budget, schedule and overall project complexity. These factors influence the resources required, the coordination of development activities and the level of process formality needed.
+
+MyRapid PULSE is a mobile application that consists of several interconnected functionalities, including journey planning, live bus tracking, interactive rail maps, lifestyle information and promotional features. The development and maintenance of these functionalities involve different technical requirements and may require coordination between multiple software components.
+
+Table 6 below describes the project characteristics of MyRapid PULSE.
+
+| Project characteristic | Explanation |
+| :---- | :---- |
+| Multiple functionalities | The application contains different features that must operate consistently within a single mobile application. |
+| Integration complexity | Journey planning and live bus tracking depend on the availability and coordination of relevant transportation information. |
+| Continuous maintenance | Existing functionalities require ongoing bug fixes, performance improvements and compatibility updates. |
+| Development scheduling | New features and improvements need to be prioritized and delivered within manageable development cycles. |
+| Cross-platform considerations | The application is available on Android and iOS, requiring consideration of compatibility across supported mobile platforms. |
+
+*Table 6: The Project Characteristics of MyRapid PULSE*
+
+The presence of multiple functionalities increases the importance of coordination and testing. For example, improvements to the journey-planning functionality should not negatively affect other related features. Similarly, modifications to the bus-tracking functionality should be tested to ensure that the application continues to display transportation information correctly.
