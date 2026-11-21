@@ -81,3 +81,5 @@ Scrum can be used to organize development activities into manageable sprints, al
 This combination allows the project to maintain flexibility in feature development while ensuring that appropriate testing activities are performed before new improvements are released.
 
 Therefore, Scrum supported by the V-Model is considered suitable for managing the multiple functionalities, integration requirements and continuous maintenance activities associated with MyRapid PULSE.
+
+## **5.1.4 People**
