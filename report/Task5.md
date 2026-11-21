@@ -36,7 +36,7 @@ The developer has acknowledged these concerns and indicated that the feedback wo
 
 Such feedback demonstrates the importance of continuously identifying and addressing user requirements throughout the application's development lifecycle.
 
-#### **5.1.2.1 Problem Factor’s Implications for process selection**
+#### **5.1.2.1 Problem Factor’s Implications for Process Selection**
 
 The characteristics of the Problem factor indicate that an iterative and flexible development approach is appropriate. Scrum is recommended because it allows development teams to continuously refine requirements based on user feedback and changing priorities.
 
