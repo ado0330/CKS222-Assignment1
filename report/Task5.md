@@ -88,13 +88,18 @@ The People factor examines the human characteristics of the software development
 
 The development and maintenance of MyRapid PULSE requires collaboration among individuals with different technical skills, responsibilities and areas of expertise. As proposed in Task 1, the reorganised development team consists of five specialised roles, including Product Owner, Scrum Master, Tech Lead, Developer and QA Engineer. The Table 8 below shows the responsibilities of each role.
 
-| Role | Responsibilities and contribution |
+| Role | Responsibilities |
 | :---- | :---- |
-| **Product Owner** | Manages and prioritises the product backlog, defines user stories and acceptance criteria, and makes release decisions. The Product Owner ensures that development activities address commuters' needs and that changes to existing features are properly considered before release. |
-| **Scrum Master** | Facilitates Scrum activities, monitors sprint progress and removes obstacles that may affect the development team's productivity. This role helps maintain communication and coordination among team members. |
-| **Tech Lead** | Oversees the application's architecture and technical standards, maintains coding standards and static analysis rules, and provides final approval before code changes are merged. The Tech Lead also resolves technical disagreements between Developers and Peer Reviewers. |
-| **Developer** | Implements and maintains application features, performs static analysis and fixes identified issues. Developers also review one another's code to identify potential defects and ensure that existing functionality is not unintentionally affected. |
-| **QA Engineer** | Independently plans and performs system and acceptance testing to verify that the application meets its functional and quality requirements. The QA Engineer also contributes to release decisions by providing testing results and identifying unresolved defects. |
+| **Product Owner** | Prioritises the product backlog, defines requirements and makes release decisions.  |
+| **Scrum Master** | Facilitates Scrum activities, monitors sprint progress and removes obstacles.  |
+| **Tech Lead** | Oversees technical standards, resolves technical disagreements and approves code merging.  |
+| **Developer** | Implements application features, performs static analysis and reviews other developers' code.  |
+| **QA Engineer** | Plans and conducts system and acceptance testing to ensure software quality.  |
 
 *Table 8: The Responsibilities of Roles in Development Team*
 
+#### **5.1.4.1 People Factor’s Implications for Process Selection**
+
+A hybrid Scrum and V-Model approach is recommended because Scrum provides a collaborative working structure through sprint planning, regular progress discussions and sprint reviews. The Product Owner can communicate changing commuter requirements and prioritise the backlog, while the Scrum Master helps resolve development obstacles. Developers, the Tech Lead and QA Engineer can also communicate regularly to identify technical issues and testing requirements early.
+
+Meanwhile, the V-Model provides a structured approach to verification and validation. The Tech Lead oversees technical reviews and merge approval, while the QA Engineer independently verifies and validates the application against its requirements. This helps prevent development decisions from being merely based on delivery speed and ensures that changes are evaluated before release.
