@@ -120,3 +120,19 @@ Quality attribute | Importance to MyRapid PULSE |
 | Security and privacy | User information should be protected through appropriate data protection and security measures. |
 
 *Table 9: Important Quality Attributes of MyRapid PULSE*
+
+**5.1.5.1 Product Factor’s Implications for Process Selection**
+
+The V-Model is recommended because it emphasizes systematic verification and validation throughout the software development lifecycle. Under this approach, testing activities are planned alongside their corresponding development and specification activities rather than being postponed until development is completed.
+
+Table 10 below shows a few examples of testing activities on quality requirements:
+
+| Product quality requirement | Proposed testing activity |
+| :---- | :---- |
+| Reliability | Conduct stability testing to identify unexpected crashes and failures. |
+| Accuracy | Compare displayed bus arrival information against trusted reference data under defined test conditions. |
+| Performance | Conduct response-time and load testing to evaluate application performance. |
+
+*Table 10: Examples of Testing Activities on Quality Requirements*
+
+The V-Model helps ensure that product requirements are translated into corresponding testing activities. This allows potential defects to be identified earlier and reduces the likelihood of unresolved problems reaching users. Therefore, the V-Model is considered suitable for the Product factor because it provides a structured approach to verifying software quality and validating whether the application meets its intended requirements.
