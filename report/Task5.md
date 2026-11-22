@@ -161,3 +161,19 @@ The two methodologies can be integrated into a single development process.
 | Phase 4 | Review and Deployment | Review testing results, resolve identified defects and release the approved improvements.
 
 *Table 11: Integration of Scrum and V-Model*
+
+## **5.2 Tuckman's Team Dynamics and Fist-of-Five Governance**
+### **5.2.x Fist-of-Five Consensus**
+
+To establish agreement on the proposed process tailoring strategy for the MyRapid PULSE application, our group adopts the Fist-of-Five consensus method. 
+
+The scoring system is interpreted as follows:
+
+| Score | Interpretation |
+| :---: | ----- |
+| 0 | Strong disagreement; completely opposes the proposal. |
+| 1 | Major concerns; unable to support the proposal. |
+| 2 | Some concerns require further discussion before supporting the proposal. |
+| 3 | Acceptable; willing to support the decision. |
+| 4 | Strong support for the proposal. |
+| 5 | Full support and confidence in the proposal. |
