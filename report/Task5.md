@@ -105,7 +105,7 @@ A hybrid Scrum and V-Model approach is recommended because Scrum provides a coll
 Meanwhile, the V-Model provides a structured approach to verification and validation. The Tech Lead oversees technical reviews and merge approval, while the QA Engineer independently verifies and validates the application against its requirements. This helps prevent development decisions from being merely based on delivery speed and ensures that changes are evaluated before release.
 
 
-## **5.1.4 Product**
+## **5.1.5 Product**
 The Product factor examines the characteristics and quality requirements of the software being developed. According to Münch's framework, relevant considerations include product criticality, reliability, lifespan and security requirements.
 
 MyRapid PULSE is a public transportation application that provides information to commuters when planning their daily journeys. Therefore, the quality of the application is important in ensuring that users can access relevant transportation information conveniently and consistently. Table 9 below shows the quality attributes that are important to MyRapid PULSE.
