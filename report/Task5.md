@@ -109,3 +109,14 @@ Meanwhile, the V-Model provides a structured approach to verification and valida
 The Product factor examines the characteristics and quality requirements of the software being developed. According to Münch's framework, relevant considerations include product criticality, reliability, lifespan and security requirements.
 
 MyRapid PULSE is a public transportation application that provides information to commuters when planning their daily journeys. Therefore, the quality of the application is important in ensuring that users can access relevant transportation information conveniently and consistently. Table 9 below shows the quality attributes that are important to MyRapid PULSE.
+
+Quality attribute | Importance to MyRapid PULSE |
+| :---- | :---- |
+| Reliability | The application should operate consistently without frequent crashes or unexpected failures. |
+| Accuracy | Bus locations, arrival estimates and journey information should be accurate to support users' travel decisions. |
+| Performance | Features such as journey planning and live bus tracking should respond within an acceptable time. |
+| Usability | The interface should allow commuters to access important information and navigate different functionalities easily. |
+| Compatibility | The application should function correctly across supported Android and iOS devices. |
+| Security and privacy | User information should be protected through appropriate data protection and security measures. |
+
+*Table 9: Important Quality Attributes of MyRapid PULSE*
