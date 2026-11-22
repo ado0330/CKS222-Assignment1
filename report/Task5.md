@@ -159,3 +159,5 @@ The two methodologies can be integrated into a single development process.
 | Phase 2 | Iterative Development | Develop and improve selected functionalities within the sprint. |  |
 | Phase 3 | Verification and Validation | Perform unit, integration, system and acceptance testing according to the requirements.  | V-Model |
 | Phase 4 | Review and Deployment | Review testing results, resolve identified defects and release the approved improvements.
+
+*Table 11: Integration of Scrum and V-Model*
