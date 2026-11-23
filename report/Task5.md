@@ -176,3 +176,11 @@ The scoring system is interpreted as follows:
 | 3 | Acceptable; willing to support the decision. |
 | 4 | Strong support for the proposal. |
 | 5 | Full support and confidence in the proposal. |
+
+#### **5.2.2.1 Consensus discussion and conflict resolution**
+
+During the discussion, all five group members are asked to cast their votes independently. One member initially expressed concerns about the proposed hybrid methodology and assigned a score of 2 out of 5. The member was concerned that combining Scrum and the V-Model might complicate the development process because the two methodologies have different approaches to managing development activities. The member also questioned whether the group could coordinate sprint activities while maintaining the corresponding testing activities.
+
+In response, the group clarified that the two methodologies would serve complementary purposes rather than operate as two separate development lifecycles. Scrum would be used as the main framework for managing development activities, while relevant V-Model verification and validation practices would be incorporated into the development and testing process. For instance, testing requirements for a particular feature could be considered during its planning and implementation rather than being postponed until the end of development.
+
+After this explanation, the member’s concern was addressed. This discussion allowed the group to clarify the intended implementation of the hybrid approach and consider the potential difficulties before reaching a decision.
