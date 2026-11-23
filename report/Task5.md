@@ -163,7 +163,12 @@ The two methodologies can be integrated into a single development process.
 *Table 11: Integration of Scrum and V-Model*
 
 ## **5.2 Tuckman's Team Dynamics and Fist-of-Five Governance**
-### **5.2.x Fist-of-Five Consensus**
+### **5.2.1 Current Stage of Team Development**
+Based on the group's progress, its current development stage is assessed as Storming. At this stage, members may have different opinions, working preferences and interpretations of the assignment requirements. These differences can create disagreements when making decisions. For example, when considering the proposed Scrum and V-Model hybrid methodology, a member was concerned about the complexity of combining two different approaches. 
+
+To manage disagreements, our group encourages members to express their opinions and provide justifications for their suggestions. Rather than immediately accepting or rejecting an idea, members discuss the advantages and limitations of each approach and refer to relevant course concepts and assignment requirements to support their decisions. This allows the group to consider different perspectives and resolve disagreements through discussion rather than personal preference. 
+
+### **5.2.2 Fist-of-Five Consensus**
 
 To establish agreement on the proposed process tailoring strategy for the MyRapid PULSE application, our group adopts the Fist-of-Five consensus method. 
 
