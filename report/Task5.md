@@ -170,8 +170,7 @@ To manage disagreements, our group encourages members to express their opinions 
 
 ### **5.2.2 Fist-of-Five Consensus**
 
-To establish agreement on the proposed process tailoring strategy for the MyRapid PULSE application, our group adopts the Fist-of-Five consensus method. 
-
+To establish agreement on the proposed hybrid methodology for the MyRapid PULSE application, our group adopts the Fist-of-Five consensus method. 
 The scoring system is interpreted as follows:
 
 | Score | Interpretation |
