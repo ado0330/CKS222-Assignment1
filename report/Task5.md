@@ -184,3 +184,13 @@ During the discussion, all five group members are asked to cast their votes inde
 In response, the group clarified that the two methodologies would serve complementary purposes rather than operate as two separate development lifecycles. Scrum would be used as the main framework for managing development activities, while relevant V-Model verification and validation practices would be incorporated into the development and testing process. For instance, testing requirements for a particular feature could be considered during its planning and implementation rather than being postponed until the end of development.
 
 After this explanation, the member’s concern was addressed. This discussion allowed the group to clarify the intended implementation of the hybrid approach and consider the potential difficulties before reaching a decision.
+
+#### **5.2.2.2 Fist-of-Five voting results**
+
+| Group member | Initial vote | Final vote |
+| ----- | ----- | ----- |
+| Khaw Zhi Xin |  |  |
+| Seah Xin Yi |  |  |
+| Lim Zhi Ying |  |  |
+| Cecilia Se |  |  |
+| Kung Ker Mian |  |  |
