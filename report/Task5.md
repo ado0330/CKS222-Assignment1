@@ -177,6 +177,8 @@ The scoring system is interpreted as follows:
 | 4 | Strong support for the proposal. |
 | 5 | Full support and confidence in the proposal. |
 
+*Table 12: Fist-of-Five Score Interpretation*
+
 #### **5.2.2.1 Consensus discussion and conflict resolution**
 
 During the discussion, all five group members are asked to cast their votes independently. One member initially expressed concerns about the proposed hybrid methodology and assigned a score of 2 out of 5. The member was concerned that combining Scrum and the V-Model might complicate the development process because the two methodologies have different approaches to managing development activities. The member also questioned whether the group could coordinate sprint activities while maintaining the corresponding testing activities.
@@ -185,12 +187,15 @@ In response, the group clarified that the two methodologies would serve compleme
 
 After this explanation, the member’s concern was addressed. This discussion allowed the group to clarify the intended implementation of the hybrid approach and consider the potential difficulties before reaching a decision.
 
-#### **5.2.2.2 Fist-of-Five voting results**
+#### **5.2.2.2 Fist-of-Five Voting Results**
 
-| Group member | Initial vote | Final vote |
-| ----- | ----- | ----- |
-| Khaw Zhi Xin |  |  |
-| Seah Xin Yi |  |  |
-| Lim Zhi Ying |  |  |
-| Cecilia Se |  |  |
-| Kung Ker Mian |  |  |
+Group member | Initial vote (0–5) | Final vote |
+| :---: | :---: | :---: |
+| Khaw Zhi Xin | 5 | 5 |
+| Seah Xin Yi | 4 | 4 |
+| Lim Zhi Ying | 5 | 5 |
+| Cecilia Se | 2 | 4 |
+| Kung Ker Mian | 5 | 5 |
+
+*Table 13: Fist-of-Five voting results*  
+*Figure 14: Initial Vote in WhatsApp 		     Figure 15: Final Vote in WhatsApp*
