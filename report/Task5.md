@@ -78,28 +78,15 @@ The V-Model is recommended because it emphasizes systematic verification and val
 
 ### **5.1.5 Proposed Hybrid Software Development Methodology**
 
-Based on Münch's 4 Ps analysis, a hybrid methodology combining Scrum and the V-Model is proposed for MyRapid PULSE. The proposed approach integrates Scrum's iterative and incremental development practices with the V-Model's structured verification and validation activities. This combination aims to balance flexibility in responding to changing commuter requirements with the need to maintain software quality and reliability.
+Based on the four factors, a hybrid methodology combining Scrum and the V-Model is proposed. Scrum provides iterative development and responsiveness to changing commuter requirements, while the V-Model contributes structured verification and validation.
 
 #### **5.1.5.1 Scrum**
 
-Scrum is proposed to manage the development and continuous improvement of MyRapid PULSE functionalities by organizing development activities into short sprints. Requirements and improvement requests are maintained in a product backlog and prioritized according to their importance. For example, if users report problems with the Live Bus Tracker, the development team can prioritize the required improvements and implement them during upcoming sprints. Scrum addresses the Problem and People factors by allowing requirements to evolve through feedback while encouraging communication and collaboration among development team members. 
+Development activities are organized into short sprints. Requirements and improvement requests are maintained in a product backlog and prioritized according to their importance. For example, if users report problems with the Live Bus Tracker, the development team can prioritize the required improvements and implement them during upcoming sprints. Scrum addresses the Problem and People factors by allowing requirements to evolve through feedback while encouraging communication and collaboration among development team members. 
 
 #### **5.1.5.2 V-Model**
 
 The V-Model is proposed to strengthen the quality assurance process of MyRapid PULSE. Unlike an approach that postpones testing until development is completed, the V-Model establishes corresponding testing activities alongside the development and specification phases. For example, when improving the Journey Planner, the development team should establish the expected functionality and corresponding testing requirements before implementation. For example, unit testing, integration testing, system testing and acceptance testing should be carried out. The V-Model addresses the Project and Product factors by providing systematic testing activities for the application's interconnected functionalities and quality requirements.
-
-#### **5.1.5.3 Integration of Scrum and V-Model**
-
-The two methodologies can be integrated into a single development process. 
-
-| Phase | Activity | Details | Methodology |
-| :---- | :---- | :---- | ----- |
-| Phase 1 | Requirements and Sprint Planning | Collect user feedback, prioritize the product backlog and select functionalities for development.  | Scrum |
-| Phase 2 | Iterative Development | Develop and improve selected functionalities within the sprint. |  |
-| Phase 3 | Verification and Validation | Perform unit, integration, system and acceptance testing according to the requirements.  | V-Model |
-| Phase 4 | Review and Deployment | Review testing results, resolve identified defects and release the approved improvements.
-
-*Table 11: Integration of Scrum and V-Model*
 
 ## **5.2 Tuckman's Team Dynamics and Fist-of-Five Governance**
 ### **5.2.1 Current Stage of Team Development**
