@@ -42,19 +42,11 @@ The Project factor considers team size, schedule, complexity, resources and coor
 
 #### **5.1.2.1 Project Factor’s Implications for Process Selection**
 
-A combination of Scrum and the V-Model is recommended to address the project's development and quality assurance requirements.
-
-Scrum can be used to organize development activities into manageable sprints, allowing the team to prioritize different application functionalities and deliver improvements incrementally. Meanwhile, the V-Model can provide a structured approach to verification and validation by establishing corresponding testing activities throughout the development lifecycle.
-
-This combination allows the project to maintain flexibility in feature development while ensuring that appropriate testing activities are performed before new improvements are released.
-
-Therefore, Scrum supported by the V-Model is considered suitable for managing the multiple functionalities, integration requirements and continuous maintenance activities associated with MyRapid PULSE.
+A combination of Scrum and the V-Model is recommended. Scrum can be used to organize development activities into manageable sprints, allowing the team to prioritize different application functionalities and deliver improvements incrementally. Meanwhile, the V-Model can provide a structured approach to verification and validation by establishing corresponding testing activities throughout the development lifecycle. This combination allows the project to maintain flexibility in feature development while ensuring that appropriate testing activities are performed before new improvements are released.
 
 ## **5.1.3 People**
 
-The People factor examines the human characteristics of the software development team, particularly their technical skills, team cohesion, working culture and staff turnover. These characteristics influence how effectively individuals collaborate, communicate and perform their assigned development activities.
-
-The development and maintenance of MyRapid PULSE requires collaboration among individuals with different technical skills, responsibilities and areas of expertise. As proposed in Task 1, the reorganised development team consists of five specialised roles, including Product Owner, Scrum Master, Tech Lead, Developer and QA Engineer. The Table 8 below shows the responsibilities of each role.
+The People factor examines the human characteristics of the software development team, particularly their technical skills, team cohesion, working culture and staff turnover. The proposed five-role structure from Task 1 distributes responsibilities across product management, process facilitation, technical leadership, development and quality assurance.
 
 | Role | Responsibilities |
 | :---- | :---- |
@@ -66,12 +58,9 @@ The development and maintenance of MyRapid PULSE requires collaboration among in
 
 *Table 8: The Responsibilities of Roles in Development Team*
 
-#### **5.1.3.1 People Factor’s Implications for Process Selection**
+#### **5.1.3.1 People Factor’s Implications on Process Selection
 
-A hybrid Scrum and V-Model approach is recommended because Scrum provides a collaborative working structure through sprint planning, regular progress discussions and sprint reviews. The Product Owner can communicate changing commuter requirements and prioritise the backlog, while the Scrum Master helps resolve development obstacles. Developers, the Tech Lead and QA Engineer can also communicate regularly to identify technical issues and testing requirements early.
-
-Meanwhile, the V-Model provides a structured approach to verification and validation. The Tech Lead oversees technical reviews and merge approval, while the QA Engineer independently verifies and validates the application against its requirements. This helps prevent development decisions from being merely based on delivery speed and ensures that changes are evaluated before release.
-
+A hybrid Scrum and V-Model approach is recommended because Scrum provides a collaborative working structure through sprint planning, regular progress discussions and sprint reviews. The Product Owner can communicate changing commuter requirements and prioritise the backlog, while the Scrum Master helps resolve development obstacles. Developers, the Tech Lead and QA Engineer can also communicate regularly to identify technical issues and testing requirements early. Meanwhile, the V-Model provides a structured approach to verification and validation. The Tech Lead oversees technical reviews and merge approval, while the QA Engineer independently verifies and validates the application against its requirements. This helps prevent development decisions from being merely based on delivery speed and ensures that changes are evaluated before release.
 
 ## **5.1.4 Product**
 The Product factor examines the characteristics and quality requirements of the software being developed. According to Münch's framework, relevant considerations include product criticality, reliability, lifespan and security requirements.
