@@ -4,11 +4,7 @@
 
 ## **5.1.1 Problem**
 
-The Problem factor examines the complexity, novelty and volatility of the constraints associated with the software problem being addressed. It considers how clearly the problem is understood, how frequently requirements may change and the uncertainties that developers must manage during development.
-
-MyRapid PULSE aims to address the difficulties commuters encounter when accessing public transportation information and planning their journeys. Through its journey planner, live bus tracker and interactive rail map, the application provides information intended to help users make more informed travel decisions.
-
-However, several challenges may arise when developing and improving the application as shown in Table 1\.
+The Problem factor examines the complexity, novelty and volatility of the constraints associated with the software problem being addressed. MyRapid PULSE helps commuters make travel decisions through its journey planner, live bus tracker and interactive rail map. Thus, its continued improvement must respond to changing commuter needs and transportation information.
 
 | Problem characteristic | Explanation |
 | :---- | :---- |
@@ -21,31 +17,15 @@ However, several challenges may arise when developing and improving the applicat
 
 These challenges are supported by publicly available user feedback. For example, some Google Play reviewers have reported application crashes and inaccurate bus arrival estimates. 
 
-*Figure 2 & Figure 3: Google Play Reviews Reporting Frequent Clash of MyRapid PULSE*
+*Figure 2-4: Selected Google Play Feedback*
 
-*Figure 4: Google Play Review Reporting Inaccurate Public Transportation Time of Arrival Prediction*
+*Figure 5: Prasarana Malaysia Berhad’s Response*
 
-The developer has acknowledged these concerns and indicated that the feedback would be shared with the relevant team for investigation and improvement.
+#### **5.1.1.1 Problem Factor’s Implications on Process Selection**
 
-*Figure 5: Prasarana Malaysia Berhad’s Reply Regarding the Complaint in FIgure 3*
-
-Such feedback demonstrates the importance of continuously identifying and addressing user requirements throughout the application's development lifecycle.
-
-#### **5.1.1.1 Problem Factor’s Implications for Process Selection**
-
-The characteristics of the Problem factor indicate that an iterative and flexible development approach is appropriate. Scrum is recommended because it allows development teams to continuously refine requirements based on user feedback and changing priorities.
-
+The Problem factor indicates that an iterative and flexible development approach is appropriate. Therefore, Scrum is recommended because it allows development teams to continuously refine requirements based on user feedback and changing priorities. This iterative approach allows MyRapid PULSE to be improved progressively without requiring the entire application to undergo a complete redevelopment whenever user requirements change.
 For example, when users report inaccurate bus arrival information, the development team can carry out the following steps:
 
-1. Collect and analyze the reported user feedback.  
-2. Record the required improvements in the product backlog.  
-3. Prioritize the improvements according to their importance.  
-4. Develop the selected improvements within a sprint.  
-5. Review the completed functionality and obtain further feedback.
-
-This iterative approach allows MyRapid PULSE to be improved progressively without requiring the entire application to undergo a complete redevelopment whenever user requirements change.
-
-Therefore, Scrum is considered suitable for addressing the complexity and volatility of the problems associated with the continuous improvement of MyRapid PULSE.
 
 ### **5.1.2 Project**
 
