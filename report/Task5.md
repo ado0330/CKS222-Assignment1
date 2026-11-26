@@ -4,13 +4,12 @@
 
 ## **5.1.1 Problem**
 
-The Problem factor examines the complexity, novelty and volatility of the constraints associated with the software problem being addressed. MyRapid PULSE helps commuters make travel decisions through its journey planner, live bus tracker and interactive rail map. Thus, its continued improvement must respond to changing commuter needs and transportation information.
+The Problem factor examines the complexity, novelty and volatility of the constraints associated with the software problem being addressed. 
 
-| Problem characteristic | Explanation |
+Problem characteristic | Explanation |
 | :---- | :---- |
 | Changing user requirements | Commuters may request new functionalities or improvements based on their travelling experiences and expectations. |
 | Real-time information accuracy | Users depend on accurate bus location and arrival-time information to plan their journeys effectively. |
-| Diverse user requirements | Different users, such as daily commuters and occasional travellers, may have different expectations regarding navigation and accessibility. |
 | Changing transportation information | Route information, schedules and service updates may require modifications to ensure that the information presented remains relevant. |
 
 *Table 1: Possible Challenges When Developing MyRapid PULSE*
