@@ -58,41 +58,23 @@ The People factor examines the human characteristics of the software development
 
 *Table 8: The Responsibilities of Roles in Development Team*
 
-#### **5.1.3.1 People Factor’s Implications on Process Selection
+#### **5.1.3.1 People Factor’s Implications on Process Selection**
 
 A hybrid Scrum and V-Model approach is recommended because Scrum provides a collaborative working structure through sprint planning, regular progress discussions and sprint reviews. The Product Owner can communicate changing commuter requirements and prioritise the backlog, while the Scrum Master helps resolve development obstacles. Developers, the Tech Lead and QA Engineer can also communicate regularly to identify technical issues and testing requirements early. Meanwhile, the V-Model provides a structured approach to verification and validation. The Tech Lead oversees technical reviews and merge approval, while the QA Engineer independently verifies and validates the application against its requirements. This helps prevent development decisions from being merely based on delivery speed and ensures that changes are evaluated before release.
 
 ## **5.1.4 Product**
-The Product factor examines the characteristics and quality requirements of the software being developed. According to Münch's framework, relevant considerations include product criticality, reliability, lifespan and security requirements.
-
-MyRapid PULSE is a public transportation application that provides information to commuters when planning their daily journeys. Therefore, the quality of the application is important in ensuring that users can access relevant transportation information conveniently and consistently. Table 9 below shows the quality attributes that are important to MyRapid PULSE.
-
-Quality attribute | Importance to MyRapid PULSE |
+The Product factor examines the characteristics and quality requirements of the software being developed including product criticality, reliability, lifespan and security requirements.
+ Quality attribute | Importance to MyRapid PULSE |
 | :---- | :---- |
 | Reliability | The application should operate consistently without frequent crashes or unexpected failures. |
 | Accuracy | Bus locations, arrival estimates and journey information should be accurate to support users' travel decisions. |
-| Performance | Features such as journey planning and live bus tracking should respond within an acceptable time. |
-| Usability | The interface should allow commuters to access important information and navigate different functionalities easily. |
-| Compatibility | The application should function correctly across supported Android and iOS devices. |
-| Security and privacy | User information should be protected through appropriate data protection and security measures. |
+| Performance | Features such as journey planning and live bus tracking should respond within an acceptable time.
 
 *Table 9: Important Quality Attributes of MyRapid PULSE*
 
-#### **5.1.4.1 Product Factor’s Implications for Process Selection**
+#### **5.1.4.1 Product Factor’s Implications on Process Selection**
 
-The V-Model is recommended because it emphasizes systematic verification and validation throughout the software development lifecycle. Under this approach, testing activities are planned alongside their corresponding development and specification activities rather than being postponed until development is completed.
-
-Table 10 below shows a few examples of testing activities on quality requirements:
-
-| Product quality requirement | Proposed testing activity |
-| :---- | :---- |
-| Reliability | Conduct stability testing to identify unexpected crashes and failures. |
-| Accuracy | Compare displayed bus arrival information against trusted reference data under defined test conditions. |
-| Performance | Conduct response-time and load testing to evaluate application performance. |
-
-*Table 10: Examples of Testing Activities on Quality Requirements*
-
-The V-Model helps ensure that product requirements are translated into corresponding testing activities. This allows potential defects to be identified earlier and reduces the likelihood of unresolved problems reaching users. Therefore, the V-Model is considered suitable for the Product factor because it provides a structured approach to verifying software quality and validating whether the application meets its intended requirements.
+The V-Model is recommended because it emphasizes systematic verification and validation throughout the software development lifecycle. It helps ensure that product requirements are translated into corresponding testing activities. This allows potential defects to be identified earlier and reduces the likelihood of unresolved problems reaching users.
 
 ### **5.1.5 Proposed Hybrid Software Development Methodology**
 
