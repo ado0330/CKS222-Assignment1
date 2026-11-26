@@ -40,8 +40,6 @@ The Project factor considers team size, schedule, complexity, resources and coor
 
 *Table 6: The Project Characteristics of MyRapid PULSE*
 
-The presence of multiple functionalities increases the importance of coordination and testing. For example, improvements to the journey-planning functionality should not negatively affect other related features. Similarly, modifications to the bus-tracking functionality should be tested to ensure that the application continues to display transportation information correctly.
-
 #### **5.1.2.1 Project Factor’s Implications for Process Selection**
 
 A combination of Scrum and the V-Model is recommended to address the project's development and quality assurance requirements.
