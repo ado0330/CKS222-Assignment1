@@ -18,7 +18,6 @@ These challenges are supported by publicly available user feedback. For example,
 
 *Figure 2-4: Selected Google Play Feedback*
 
-*Figure 5: Prasarana Malaysia Berhad’s Response*
 
 #### **5.1.1.1 Problem Factor’s Implications on Process Selection**
 
@@ -37,7 +36,7 @@ The Project factor considers team size, schedule, complexity, resources and coor
 | Development scheduling | New features and improvements need to be prioritized and delivered within manageable development cycles. |
 | Cross-platform considerations | The application is available on Android and iOS, requiring consideration of compatibility across supported mobile platforms. |
 
-*Table 6: The Project Characteristics of MyRapid PULSE*
+*Table 5: The Project Characteristics of MyRapid PULSE*
 
 #### **5.1.2.1 Project Factor’s Implications for Process Selection**
 
@@ -55,7 +54,7 @@ The People factor examines the human characteristics of the software development
 | **Developer** | Implements application features, performs static analysis and reviews other developers' code.  |
 | **QA Engineer** | Plans and conducts system and acceptance testing to ensure software quality.  |
 
-*Table 8: The Responsibilities of Roles in Development Team*
+*Table 6: The Responsibilities of Roles in Development Team*
 
 #### **5.1.3.1 People Factor’s Implications on Process Selection**
 
@@ -69,7 +68,7 @@ The Product factor examines the characteristics and quality requirements of the 
 | Accuracy | Bus locations, arrival estimates and journey information should be accurate to support users' travel decisions. |
 | Performance | Features such as journey planning and live bus tracking should respond within an acceptable time.
 
-*Table 9: Important Quality Attributes of MyRapid PULSE*
+*Table 7: Important Quality Attributes of MyRapid PULSE*
 
 #### **5.1.4.1 Product Factor’s Implications on Process Selection**
 
@@ -77,15 +76,15 @@ The V-Model is recommended because it emphasizes systematic verification and val
 
 ### **5.1.5 Proposed Hybrid Software Development Methodology**
 
-Based on the four factors, a hybrid methodology combining Scrum and the V-Model is proposed. Scrum provides iterative development and responsiveness to changing commuter requirements, while the V-Model contributes structured verification and validation.
+Based on the four factors, a hybrid methodology combining Scrum and the V-Model is proposed. 
 
 #### **5.1.5.1 Scrum**
 
-Development activities are organized into short sprints. Requirements and improvement requests are maintained in a product backlog and prioritized according to their importance. For example, if users report problems with the Live Bus Tracker, the development team can prioritize the required improvements and implement them during upcoming sprints. Scrum addresses the Problem and People factors by allowing requirements to evolve through feedback while encouraging communication and collaboration among development team members. 
+Development activities are organized into short sprints. Requirements and improvement requests are maintained in a product backlog and prioritized according to their importance. For example, reported issues with the Live Bus Tracker can be prioritised and addressed in an upcoming sprint. Scrum therefore supports the Problem and People factors through adaptability and collaboration.
 
 #### **5.1.5.2 V-Model**
 
-The V-Model is proposed to strengthen the quality assurance process of MyRapid PULSE. Unlike an approach that postpones testing until development is completed, the V-Model establishes corresponding testing activities alongside the development and specification phases. For example, when improving the Journey Planner, the development team should establish the expected functionality and corresponding testing requirements before implementation. For example, unit testing, integration testing, system testing and acceptance testing should be carried out. The V-Model addresses the Project and Product factors by providing systematic testing activities for the application's interconnected functionalities and quality requirements.
+The V-Model establishes corresponding testing activities alongside the development and specification phases. For example, when improving the Journey Planner, the development team should establish the expected functionality and corresponding testing requirements before implementation. Unit testing, integration testing, system testing and acceptance testing should be carried out. The V-Model addresses the Project and Product factors by providing systematic testing activities for the interconnected functionalities and quality requirements.
 
 ## **5.2 Tuckman's Team Dynamics and Fist-of-Five Governance**
 ### **5.2.1 Current Stage of Team Development**
