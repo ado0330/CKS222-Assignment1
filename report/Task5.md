@@ -26,19 +26,14 @@ These challenges are supported by publicly available user feedback. For example,
 The Problem factor indicates that an iterative and flexible development approach is appropriate. Therefore, Scrum is recommended because it allows development teams to continuously refine requirements based on user feedback and changing priorities. This iterative approach allows MyRapid PULSE to be improved progressively without requiring the entire application to undergo a complete redevelopment whenever user requirements change.
 For example, when users report inaccurate bus arrival information, the development team can carry out the following steps:
 
-
 ### **5.1.2 Project**
 
-The Project factor examines the characteristics and constraints of the software development project, including team size, team distribution, budget, schedule and overall project complexity. These factors influence the resources required, the coordination of development activities and the level of process formality needed.
-
-MyRapid PULSE is a mobile application that consists of several interconnected functionalities, including journey planning, live bus tracking, interactive rail maps, lifestyle information and promotional features. The development and maintenance of these functionalities involve different technical requirements and may require coordination between multiple software components.
-
-Table 6 below describes the project characteristics of MyRapid PULSE.
+The Project factor considers team size, schedule, complexity, resources and coordination. 
 
 | Project characteristic | Explanation |
 | :---- | :---- |
-| Multiple functionalities | The application contains different features that must operate consistently within a single mobile application. |
-| Integration complexity | Journey planning and live bus tracking depend on the availability and coordination of relevant transportation information. |
+| Multiple functionalities | Journey planning, bus tracking, rail maps and other features must work consistently together. |
+| Integration complexity | Journey planning and live tracking depend on relevant transportation data being available and coordinated. |
 | Continuous maintenance | Existing functionalities require ongoing bug fixes, performance improvements and compatibility updates. |
 | Development scheduling | New features and improvements need to be prioritized and delivered within manageable development cycles. |
 | Cross-platform considerations | The application is available on Android and iOS, requiring consideration of compatibility across supported mobile platforms. |
