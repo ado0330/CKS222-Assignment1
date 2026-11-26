@@ -118,9 +118,6 @@ Group member | Initial vote  | Final vote |
 *Table 13: Fist-of-Five voting results*  
 
 #### **5.2.2.3 Final decision**
-Based on the actual voting results and subsequent discussion, the group agreed on adopting the Scrum and V-Model hybrid methodology for the MyRapid PULSE application.
-
-The discussion demonstrates the importance of considering individual concerns before finalising a group decision. The unedited WhatsApp group chat screenshot showing all five members' votes and the discussion resolving any votes below 3 is attached as evidence of the Fist-of-Five consensus process.
+Based on the actual voting results and subsequent discussion, the group agreed on adopting the Scrum and V-Model hybrid methodology for the MyRapid PULSE application. The discussion demonstrates the importance of considering individual concerns before finalising a group decision. The unedited WhatsApp group chat screenshot showing all five members' votes and the discussion resolving any votes below 3 is attached as evidence of the Fist-of-Five consensus process.
 
 *Figure 14: Initial Vote in WhatsApp ·		     Figure 15: Final Vote in WhatsApp*  
-*Figure 16,17,18:WhatsApp Chat History Screenshot*
