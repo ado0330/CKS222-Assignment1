@@ -34,7 +34,7 @@ The Project factor considers team size, schedule, complexity, resources and coor
 | Integration complexity | Journey planning and live tracking depend on relevant transportation data being available and coordinated. |
 | Continuous maintenance | Existing functionalities require ongoing bug fixes, performance improvements and compatibility updates. |
 | Development scheduling | New features and improvements need to be prioritized and delivered within manageable development cycles. |
-| Cross-platform considerations | The application is available on Android and iOS, requiring consideration of compatibility across supported mobile platforms. |
+|  |  |
 
 *Table 5: The Project Characteristics of MyRapid PULSE*
 
@@ -97,11 +97,9 @@ To establish agreement on the proposed hybrid methodology for the MyRapid PULSE 
 
 #### **5.2.2.1 Consensus discussion and conflict resolution**
 
-During the vote, Cecilia Se assigned a score of 2 out of 5 because she was concerned that combining Scrum and the V-Model might complicate the development process because the two methodologies have different approaches to managing development activities. She also questioned whether the group could coordinate sprint activities while maintaining the corresponding testing activities.
+During the vote, Cecilia Se assigned a score of 2 out of 5 because she was concerned that combining Scrum and the V-Model might complicate the development process because the two methodologies have different approaches to managing development activities. She also questioned whether the group could coordinate sprint activities while maintaining the corresponding testing activities. In response, the group clarified that the two methodologies would serve complementary purposes rather than operate as two separate development lifecycles. Scrum would be used as the main framework for managing development activities, while relevant V-Model  practices would be incorporated into the development and testing process. She then agreed and revised the vote from 2 to 4. This discussion allowed the group to clarify the proposed hybrid approach and consider the potential difficulties.
 
-In response, the group clarified that the two methodologies would serve complementary purposes rather than operate as two separate development lifecycles. Scrum would be used as the main framework for managing development activities, while relevant V-Model verification and validation practices would be incorporated into the development and testing process. For instance, testing requirements for a particular feature could be considered during its planning and implementation rather than being postponed until the end of development. The member then indicated that the explanation addressed the concern and revised the vote from 2 to 4. This discussion allowed the group to clarify the intended implementation of the hybrid approach and consider the potential difficulties before reaching a decision.
-
-*Figures 10-12: WhatsApp discussion showing the initial concern, clarification and member confirmation*
+*Figures 8-10: WhatsApp discussion showing the initial concern, clarification and member confirmation*
 
 #### **5.2.2.2 Fist-of-Five Voting Results**
 
@@ -113,9 +111,8 @@ Group member | Initial vote  | Final vote |
 | Cecilia Se | 2 | 4 |
 | Kung Ker Mian | 5 | 5 |
 
-*Table 13: Fist-of-Five voting results*  
+*Table 11: Fist-of-Five voting results*  
 
 #### **5.2.2.3 Final decision**
-Based on the actual voting results and subsequent discussion, the group agreed on adopting the Scrum and V-Model hybrid methodology for the MyRapid PULSE application. The discussion demonstrates the importance of considering individual concerns before finalising a group decision. The unedited WhatsApp group chat screenshot showing all five members' votes and the discussion resolving any votes below 3 is attached as evidence of the Fist-of-Five consensus process.
-
-*Figure 14: Initial Vote in WhatsApp ·		     Figure 15: Final Vote in WhatsApp*  
+Lastly, the group agreed on adopting the Scrum and V-Model hybrid methodology for the MyRapid PULSE application. The discussion demonstrates the importance of considering individual concerns before finalising a group decision.
+*Figure 12: Initial Vote in WhatsApp ·		     Figure 13: Final Vote in WhatsApp*  
